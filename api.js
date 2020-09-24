@@ -8,7 +8,7 @@ function getanswer(q) {
         var Titulo = data.Search[0].Title;
         var year = data.Search[0].Year;
 
-        var imdburl = "https://www.imdb.com/title/" + data.Search[0].imdbID + " /";
+        var imdburl = "https://www.imdb.com/title/" + data.Search[0].imdbID + "/";
 
         var posterurl = data.Search[0].Poster;
 
