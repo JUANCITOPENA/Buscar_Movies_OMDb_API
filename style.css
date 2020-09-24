@@ -1,0 +1,54 @@
+body {
+    background-color: #f1f2f6;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #2f3542;
+}
+
+#qurybox {
+    text-align: center;
+    font-size: 25px;
+    color: #e84118;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#answer {
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    display: grid;
+    font-size: 28px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    margin-left: 0 auto !important;
+    margin-right: 0 auto !important;
+    border-radius: 15px;
+}
+
+.texto {
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 35px;
+}
+
+img {
+    width: 250px;
+    height: 350px;
+}
+
+img {
+    border: 2px solid red;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 5px 10px #888888;
+}

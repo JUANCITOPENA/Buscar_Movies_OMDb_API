@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OMDb API JPV</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="texto">
+
+        <h1> API OMDb Aplicacion de Consultas Peliculas </h1>
+    </div>
+
+
+    <input onkeyup="getanswer(document.getElementById('qurybox').value)" id="qurybox">
+
+    <div id="answer"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
+
+    <script src="api.js"></script>
+
+</body>
+
+</html>
