@@ -5,7 +5,9 @@ function getanswer(q) {
 
         var rawstring = JSON.stringify(rawdata);
         data = JSON.parse(rawstring);
-        var Titulo = data.Search[0].Title;
+
+        var title = data.Search[0].Title;
+
         var year = data.Search[0].Year;
 
         var imdburl = "https://www.imdb.com/title/" + data.Search[0].imdbID + "/";
@@ -14,9 +16,9 @@ function getanswer(q) {
 
 
         document.getElementById('answer').innerHTML = "<h1>" +
-            Titulo + "</h1><img src= '" +
-            posterurl + "'><br><p> Año de Esteno:" +
-            year + "</p> <p> IMDB page: <a href='" +
+            title + "</h1><br> <img src= '" +
+            posterurl + "'><br><p> Año de Estreno:" +
+            year + "</p><p> IMDB page: <a href='" + " " +
             imdburl + "'target='_blank'>" +
             imdburl + "</a></p>";
 
@@ -26,5 +28,7 @@ function getanswer(q) {
         // Genre(s): Action, Adventure
         // Language(s): English, Mandarin
         // Country: USA, UK
+
+
     });
 }

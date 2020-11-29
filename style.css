@@ -38,11 +38,7 @@ input {
 .texto {
     font-family: Impact, Charcoal, sans-serif;
     font-size: 35px;
-}
-
-img {
-    width: 250px;
-    height: 350px;
+    margin-top: 10px;
 }
 
 img {
@@ -50,5 +46,4 @@ img {
     border-radius: 5px;
     display: inline-block;
     padding: 10px;
-    box-shadow: 5px 10px #888888;
 }
