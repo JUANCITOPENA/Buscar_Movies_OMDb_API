@@ -6,7 +6,7 @@
 y Mostrar el Link con mas Informacion.
 
 
-![](MINI-BLOG.png)
+![](api.png)
 
 " URL: https://juancitopena.github.io/PORTAFOLIO-BI/index.html"
 
