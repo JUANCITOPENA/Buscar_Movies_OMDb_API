@@ -8,5 +8,5 @@ y Mostrar el Link con mas Informacion.
 
 ![](api.png)
 
-" URL: https://juancitopena.github.io/PORTAFOLIO-BI/index.html"
+" URL: https://juancitopena.github.io/Buscar_Movies_OMDb_API/"
 
