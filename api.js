@@ -10,8 +10,6 @@ function getanswer(q) {
 
         var year = data.Search[0].Year;
 
-        var genre= data.Search[0].Genre;
-
         var imdburl = "https://www.imdb.com/title/" + data.Search[0].imdbID + "/";
 
         var posterurl = data.Search[0].Poster;
@@ -23,7 +21,6 @@ function getanswer(q) {
             year + "</p><p> IMDB page: <a href='" + " " +
             imdburl + "'target='_blank'>" +
             imdburl + "</a></p>";
-            
 
         // Title: Batman Begins
         // Year: 2005
